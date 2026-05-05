@@ -64,7 +64,7 @@ a:hover {
 
 .btn-dark,
 .btn-dark:hover {
-  color: var(--clr-primary-light) !important;
+  color: var(--clr-primary) !important;
   background: var(--clr-accent) !important;
 }
 
