@@ -16,7 +16,7 @@
   --clr-primary-dark: #656565;
   /* --clr-primary-muted: hsl(calc(var(--clr-primary-h) - 12) var(--clr-primary-s) 45%); */
   --clr-primary-muted: #202020;
-  --clr-accent: #D44A01;
+  --clr-accent: #CDC615;
 }
 
 html,
@@ -556,7 +556,7 @@ a:hover {
 }
 
 .destaque__slide--bottom p {
-  color: #fff;
+  color: var(--clr-primary);
   font-size: 14px;
   font-weight: 500;
 }
@@ -800,7 +800,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--clr-primary-light);
+  color: var(--clr-primary);
   font-weight: 500;
   font-size: 16px;
   line-height: 15.81px;
